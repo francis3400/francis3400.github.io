@@ -37,6 +37,7 @@ header {
 #seeTonic2 {
   display: none;
 }
+
 #seeMultiPost {
   display: block;
 }
@@ -64,10 +65,6 @@ header {
 
 .tonicList1 li {
   display: inline;
-}
-
-.lan-list li {
-   display: inline;
 }
 
 #languages-list li {
