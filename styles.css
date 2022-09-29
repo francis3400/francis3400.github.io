@@ -54,6 +54,10 @@ ul {
   display: block;
 }
 
+.htmlButtons li {
+  margin-right: 0.8rem;
+}
+
 #languages-list {
   list-style-type: none;
   display: flex;
@@ -226,10 +230,6 @@ ul {
   font-size: 15px;
   line-height: 24px;
   color: #344563;
-}
-
-.htmlButtons li {
-  margin-right: 0.8rem;
 }
 
 .htmlButtons button {
