@@ -60,7 +60,7 @@ h2 {
 }
 
 .htmlButtons li {
-  padding: 4px 6px;
+  margin-right: 0.8rem;
 }
 
 #languages-list {
