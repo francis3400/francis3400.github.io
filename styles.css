@@ -19,6 +19,15 @@ header {
   padding: 14px 24px;
 }
 
+ul {
+  list-style: none;
+}
+
+h2 {
+  margin-right: 10px;
+  font-size: 40px;
+}
+
 .logo {
   color: #6070ff;
 }
@@ -50,6 +59,10 @@ header {
   display: block;
 }
 
+.htmlButtons li {
+  margin-right: 0.8rem;
+}
+
 #languages-list {
   list-style-type: none;
   display: flex;
@@ -71,22 +84,13 @@ header {
   margin-right: 10px;
 }
 
-ul {
-  padding: 30px;
-}
-
 .socialMedia ul {
   list-style-type: none;
-  margin-left: -150px;
-}
-
-main {
-  margin: auto;
+  margin-left: -110px;
 }
 
 #landing {
   width: 100%;
-  height: 758px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -95,6 +99,7 @@ main {
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
+  padding-bottom: 5rem;
 }
 
 .landingSpace {
@@ -103,11 +108,10 @@ main {
 
 .hello {
   width: 300px;
-  height: 150px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  margin: auto;
+  margin-top: 8rem;
 }
 
 .hello h2 {
@@ -122,7 +126,6 @@ main {
 
 .landingText {
   width: 100%;
-  height: 140px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -133,23 +136,7 @@ main {
   padding: 24px;
 }
 
-.landingH3 {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-size: 16px;
-  color: #7f8cff;
-  margin-left: -180px;
-}
-
-.landingH3 h3 {
-  margin: auto;
-  display: inline;
-  width: 100%;
-}
-
 .tonic {
-  width: 100%;
-  height: 552px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -157,13 +144,13 @@ main {
   background-repeat: no-repeat;
   border: 1px solid #dfe1e6;
   font-family: 'poppins', sans-serif;
-  padding: 16px 16px 0;
+  padding: 16px;
   border-radius: 16px;
 }
 
 .stories {
-  width: 100%;
-  height: 596px;
+  width: 95%;
+  margin: 0.5rem auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -171,47 +158,42 @@ main {
   background-repeat: no-repeat;
   border: 1px solid #dfe1e6;
   font-family: 'poppins', sans-serif;
-  padding: 16px 16px 0;
+  padding: 16px;
   border-radius: 16px;
 }
 
 .tonic2 {
-  width: 100%;
-  height: 552px;
+  width: 95%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: auto;
+  margin: 0.5rem auto;
   background-size: cover;
   background-repeat: no-repeat;
   border: 1px solid #dfe1e6;
   font-family: 'poppins', sans-serif;
-  padding: 16px 16px 88px;
+  padding: 16px;
   border-radius: 16px;
 }
 
 .stories2 {
-  width: 100%;
-  height: 596px;
+  width: 95%;
+  margin: 0.5rem auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: auto;
   background-size: cover;
   background-repeat: no-repeat;
   border: 1px solid #dfe1e6;
   font-family: 'poppins', sans-serif;
-  padding: 70px 16px 88px;
+  padding: 16px;
   border-radius: 16px;
 }
 
 .tonicTitle {
   font-size: 32px;
   color: #172b4d;
-}
-
-.tonicTitle h2 {
-  display: inline;
+  font-family: 'poppins', sans-serif;
 }
 
 .tonicTitle p {
@@ -225,14 +207,13 @@ main {
   font-size: 13px;
   line-height: 16px;
   color: #7a869a;
-  margin-left: -40px;
-  margin-top: -20px;
+  padding-bottom: 10px;
 }
 
 .licap {
   color: #344563;
   font-weight: 600;
-  padding: 24px;
+  margin-right: 4px;
 }
 
 .tonicList1p1 {
@@ -255,15 +236,18 @@ main {
 
 .htmlButtons button {
   background: #ebebff;
-  border-radius: 8px;
+  border-radius: 10px;
   color: #6070ff;
-  height: 24px;
-  font-size: 15px;
-  line-height: 20px;
+  font-size: 12px;
+  line-height: 16px;
   letter-spacing: 0.03em;
   border: none;
   margin-top: 20px;
   font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  width: auto;
+  height: 24px;
+  padding: 0 1rem;
 }
 
 .resumeButton button {
@@ -278,6 +262,7 @@ main {
   border: 2px solid #396df2;
   margin-top: 20px;
   margin-left: 18px;
+  padding: 10px;
 }
 
 .seeProject button {
@@ -291,6 +276,7 @@ main {
   background: none;
   border: 2px solid #396df2;
   margin-top: 20px;
+  padding: 10px;
 }
 
 .resumeButton button:active {
@@ -365,11 +351,19 @@ main {
   font-family: 'Poppins', sans-serif;
   font-size: 15px;
   color: #253858;
-  margin-left: -50px;
   margin-bottom: 30px;
   background: #f7f7f9;
   margin-top: 20px;
   width: 100%;
+  padding-bottom: 5px;
+  align-items: center;
+  padding-top: 7px;
+  border-radius: 8px;
+  padding-left: 10px;
+}
+
+.aboutList2 {
+  margin: auto 20px;
 }
 
 .Q p {
@@ -379,45 +373,89 @@ main {
 .languages {
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
-  margin-left: -20px;
+  margin: auto 20px;
 }
 
 .arrow {
   position: absolute;
   right: 13%;
-  margin-top: -50px;
+  margin-top: -33px;
 }
 
 .arrow2 {
   height: 4%;
   position: absolute;
   right: 13%;
-  margin-top: -58px;
+  margin-top: -35px;
 }
 
 .arrow3 {
   height: 4%;
   position: absolute;
   right: 13%;
-  margin-top: -58px;
-}
-
-.languajes {
-  position: relative;
+  margin-top: -35px;
 }
 
 .languages2 {
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
-  margin-left: -20px;
+  margin: 30px 20px 0;
+  padding-bottom: 30px;
+}
+
+hr {
   margin-top: 50px;
 }
 
 .parting {
-  padding-bottom: 88px;
+  width: 95%;
+  margin: 0 auto;
 }
 
-.landingtxt {
-  margin-left: 5px;
-  margin-top: 150px;
+.hello2 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+#aboutText {
+  width: 327px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  text-align: left;
+  padding-top: 10px;
+}
+
+.connect {
+  text-align: left;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  color: #7f8cff;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  margin-right: 200px;
+  margin-right: auto;
+  margin-left: 24px;
+}
+
+.about2 {
+  width: 95%;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+.htmlButtons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-right: auto;
+  padding: 2px;
 }
