@@ -23,6 +23,11 @@ ul {
   list-style: none;
 }
 
+h2 {
+  margin-right: 10px;
+  font-size: 40px;
+}
+
 .logo {
   color: #6070ff;
 }
@@ -54,6 +59,10 @@ ul {
   display: block;
 }
 
+.htmlButtons li {
+  padding: 4px 6px;
+}
+
 #languages-list {
   list-style-type: none;
   display: flex;
@@ -77,7 +86,7 @@ ul {
 
 .socialMedia ul {
   list-style-type: none;
-  margin-left: -120px;
+  margin-left: -110px;
 }
 
 #landing {
@@ -184,10 +193,7 @@ ul {
 .tonicTitle {
   font-size: 32px;
   color: #172b4d;
-}
-
-.tonicTitle h2 {
-  display: inline;
+  font-family: 'poppins', sans-serif;
 }
 
 .tonicTitle p {
@@ -207,7 +213,7 @@ ul {
 .licap {
   color: #344563;
   font-weight: 600;
-  margin-right: 24px;
+  margin-right: 4px;
 }
 
 .tonicList1p1 {
@@ -228,21 +234,20 @@ ul {
   color: #344563;
 }
 
-.htmlButtons li {
-  margin-right: 0.8rem;
-}
-
 .htmlButtons button {
   background: #ebebff;
-  border-radius: 8px;
+  border-radius: 10px;
   color: #6070ff;
-  height: 24px;
-  font-size: 15px;
-  line-height: 20px;
+  font-size: 12px;
+  line-height: 16px;
   letter-spacing: 0.03em;
   border: none;
   margin-top: 20px;
   font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  width: auto;
+  height: 24px;
+  padding: 0 1rem;
 }
 
 .resumeButton button {
@@ -257,6 +262,7 @@ ul {
   border: 2px solid #396df2;
   margin-top: 20px;
   margin-left: 18px;
+  padding: 10px;
 }
 
 .seeProject button {
@@ -270,6 +276,7 @@ ul {
   background: none;
   border: 2px solid #396df2;
   margin-top: 20px;
+  padding: 10px;
 }
 
 .resumeButton button:active {
@@ -349,6 +356,14 @@ ul {
   margin-top: 20px;
   width: 100%;
   padding-bottom: 5px;
+  align-items: center;
+  padding-top: 7px;
+  border-radius: 8px;
+  padding-left: 10px;
+}
+
+.aboutList2 {
+  margin: auto 20px;
 }
 
 .Q p {
@@ -358,6 +373,7 @@ ul {
 .languages {
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
+  margin: auto 20px;
 }
 
 .arrow {
@@ -380,13 +396,14 @@ ul {
   margin-top: -35px;
 }
 
-.languajes {
-  position: relative;
-}
-
 .languages2 {
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
+  margin: 30px 20px 0;
+  padding-bottom: 30px;
+}
+
+hr {
   margin-top: 50px;
 }
 
@@ -425,6 +442,8 @@ ul {
   font-style: normal;
   font-size: 16px;
   margin-right: 200px;
+  margin-right: auto;
+  margin-left: 24px;
 }
 
 .about2 {
@@ -438,4 +457,5 @@ ul {
   align-items: center;
   justify-content: flex-start;
   margin-right: auto;
+  padding: 2px;
 }
