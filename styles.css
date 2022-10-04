@@ -459,3 +459,61 @@ hr {
   margin-right: auto;
   padding: 2px;
 }
+
+.container-contact {
+  width: 95%;
+  margin: 0 auto;
+  padding-top: 60px;
+  background-image: url(images/Frame);
+  height: 779px;
+  position: absolute;
+}
+
+h3 {
+  height: 56px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  align-items: center;
+  width: 801px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #fff;
+}
+
+.contact-text {
+  padding: 24px;
+  height: 102px;
+}
+
+.full-name {
+  background: #fff;
+  padding: 24px;
+  height: 48px;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+}
+
+.email {
+  background: #fff;
+  padding: 24px;
+  height: 48px;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+}
+
+.text-area {
+  background: #fff;
+  padding: 15px 38px 15px 16px;
+  height: 140px;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+}
+
+.message {
+  background: #fff;
+  padding: 24px;
+  height: 170px;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+}
