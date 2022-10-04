@@ -467,26 +467,24 @@ hr {
   background-image: url(images/contact-me.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 779px;  
-  display:flex;
+  height: 779px;
+  display: flex;
   flex-direction: column;
-  
 }
 
-.contact-title  {
+.contact-title {
   width: 100%;
-  height: 56px; 
-  font-family: 'Poppins';
+  height: 56px;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
-  line-height: 52px;  
+  line-height: 52px;
   display: flex;
   justify-content: center;
   align-content: center;
-  text-align: center;  
-  color: #FFFFFF; 
-  
+  text-align: center;
+  color: #ffffff;
 }
 
 .contact-text {
@@ -496,12 +494,11 @@ hr {
   left: 24px;
   top: 4802px;
   font-size: 20px;
-  font-weight: 400; 
-  font-family: 'Poppins';
-  font-style: normal;  
-  color: #EBEBFF; 
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  color: #ebebff;
   text-align: center;
-
 }
 
 .full-name {
@@ -510,6 +507,12 @@ hr {
   height: 48px;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
+  font-size: 17px;
+  line-height: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 12px;
 }
 
 .email {
@@ -518,6 +521,12 @@ hr {
   height: 48px;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
+  margin-bottom: 12px;
+  font-size: 17px;
+  line-height: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
 }
 
 .text-area {
@@ -526,12 +535,21 @@ hr {
   height: 140px;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
+  margin-bottom: 12px;
 }
 
 .message {
   background: #fff;
   padding: 24px;
-  height: 170px;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
+  width: 100%;
+}
+
+.form-class {
+  padding-top: 87px;
+  margin: 0 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
