@@ -279,6 +279,20 @@ h2 {
   padding: 10px;
 }
 
+#getInTouch {
+  border-radius: 8px;
+  color: #6070ff;
+  height: 40px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  background: #fff;
+  border: 2px solid #396df2;
+  margin-top: 20px;
+  padding: 12px 16px;
+  font-family: 'Poppins', sans-serif;
+  width: 140px;
+}
+
 .resumeButton button:active {
   background: #2230d2;
   color: white;
@@ -458,4 +472,134 @@ hr {
   justify-content: flex-start;
   margin-right: auto;
   padding: 2px;
+}
+
+.container-contact {
+  width: 95%;
+  margin: 0 auto;
+  padding-top: 60px;
+  background-image: url(images/Frame.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 779px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-title {
+  width: 100%;
+  height: 56px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+.contact-text {
+  padding: 24px;
+  width: 100%;
+  height: 102px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  color: #ebebff;
+  text-align: center;
+}
+
+.name {
+  background: #fff;
+  padding: 24px;
+  height: 48px;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  font-size: 17px;
+  line-height: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 12px;
+  width: 100%;
+}
+
+.email {
+  background: #fff;
+  padding: 24px;
+  height: 48px;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  font-size: 17px;
+  line-height: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  width: 100%;
+}
+
+.text-area {
+  background: #fff;
+  padding: 15px 38px 15px 16px;
+  height: 140px;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+textarea {
+  background: #fff;
+  padding: 24px;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  width: 100%;
+  height: 170px;
+}
+
+.form-class {
+  padding-top: 100px;
+  margin: 0 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #172b4d;
+}
+
+.getInTouch button:hover {
+  background: #6070ff;
+  color: white;
+  border: none;
+  border: 2px solid #6070ff;
+}
+
+.getInTouch button:active {
+  background: #2230d2;
+  color: white;
+  border: none;
+  border: 2px solid #2230d2;
+}
+
+.getInTouch button:disabled {
+  color: #5e6c84;
+  border: 1px solid #c1c7d0;
+}
+
+.getInTouch {
+  width: 100%;
+  height: 60px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #6070ff;
 }

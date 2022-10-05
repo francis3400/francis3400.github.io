@@ -4,7 +4,7 @@ Project Name
 Mobile Portfolio
 
 Description
-This project was made to complete the mobile portfolio version.
+This project was made to complete the mobile portfolio version including the contact form.
 
 Built With
 Html
@@ -46,6 +46,7 @@ Hat tip to my coding partners Gerson and Giorgi
 
 Inspiration
 My mother Charity Uche
+coding partner: Edahi Gautiriz
 
 📝 License
 This project is MIT licensed.
