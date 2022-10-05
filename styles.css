@@ -279,6 +279,20 @@ h2 {
   padding: 10px;
 }
 
+#getInTouch {
+  border-radius: 8px;
+  color: #6070ff;
+  height: 40px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  background: #fff;
+  border: 2px solid #396df2;
+  margin-top: 20px;
+  padding: 12px 16px;
+  font-family: 'Poppins', sans-serif;
+  width: 140px;
+}
+
 .resumeButton button:active {
   background: #2230d2;
   color: white;
@@ -464,7 +478,7 @@ hr {
   width: 95%;
   margin: 0 auto;
   padding-top: 60px;
-  background-image: url(images/contact-me.png);
+  background-image: url(images/Frame.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 779px;
@@ -484,15 +498,13 @@ hr {
   justify-content: center;
   align-content: center;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
 }
 
 .contact-text {
   padding: 24px;
   width: 100%;
   height: 102px;
-  left: 24px;
-  top: 4802px;
   font-size: 20px;
   font-weight: 400;
   font-family: 'Poppins', sans-serif;
@@ -501,7 +513,7 @@ hr {
   text-align: center;
 }
 
-.full-name {
+.name {
   background: #fff;
   padding: 24px;
   height: 48px;
@@ -513,6 +525,7 @@ hr {
   font-style: normal;
   font-weight: 400;
   margin-bottom: 12px;
+  width: 100%;
 }
 
 .email {
@@ -527,6 +540,7 @@ hr {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
+  width: 100%;
 }
 
 .text-area {
@@ -538,18 +552,39 @@ hr {
   margin-bottom: 12px;
 }
 
-.message {
+textarea {
   background: #fff;
   padding: 24px;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   width: 100%;
+  height: 170px;
 }
 
 .form-class {
-  padding-top: 87px;
+  padding-top: 100px;
   margin: 0 24px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  color: #172b4d;
+}
+
+.getInTouch button:hover {
+  background: #6070ff;
+  color: white;
+  border: none;
+  border: 2px solid #6070ff;
+}
+
+.getInTouch button:active {
+  background: #2230d2;
+  color: white;
+  border: none;
+  border: 2px solid #2230d2;
+}
+
+.getInTouch button:disabled {
+  color: #5e6c84;
+  border: 1px solid #c1c7d0;
 }

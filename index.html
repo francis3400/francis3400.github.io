@@ -296,15 +296,24 @@
              <h3 class="contact-title">Contact me</h3>
              <p class="contact-text">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it</p>
              <form  action="https://formspree.io/f/mzbwgkjy" method="POST" class="form-class">
-                <div><input type="text" maxlength="30" placeholder="full name" class="full-name"required></div>
-                <div><input type="email" placeholder="Email-address" class="email"required></div>
-                <div class="message">
-                  <input type="text-area" maxlength="500" placeholder="Write your message here" class="text-area" required>
-                </div>                
-              </form>        
-              <div class="getInTouch">
-              <button type="button" class="button-fix">Get in touch</button>
-              </div>                     
+        <ul>
+          <li>
+              <label for="name"></label>
+              <input type="text" class="name" name="name" required placeholder="Francis Uche" maxlength="30">
+          </li>
+          <li>
+              <label for="mail"></label>
+              <input type="email" class="email" name="email" required placeholder="francisuche712@gmail.com">
+          </li>
+          <li>
+              <label for="msg"></label>
+              <textarea id="msg" name="user_message" maxlength="500" cols="30" rows="10" required placeholder="Write your message here"></textarea>
+        </ul>
+      <button type="submit" id="getInTouch">Get in touch</button>
+
+      </form>
+      
+    </footer>                    
           </div>
 
 
