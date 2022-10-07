@@ -47,6 +47,7 @@ Hat tip to my coding partners Gerson and Giorgi
 
 Inspiration
 My mother Charity Uche
+coding partner: Edahi Gautiriz
 
 📝 License
 This project is MIT licensed.
