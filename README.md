@@ -1,10 +1,11 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-Project Name
-Mobile Portfolio
+##Project Name
+
+Desktop Portfolio
 
 Description
-This project was made to complete the mobile portfolio version.
+This project was made to complete the desktop portfolio version.
 
 Built With
 Html
@@ -16,7 +17,7 @@ To get a local copy up and running follow these simple example steps.
 
 Prequisites
 
-Code Editor(VS Studio Code) Web Browser 9Google Chrome recommended)
+Code Editor(VS Studio Code) Web Browser Google Chrome recommended)
 
 How to run the project do the following:
 
