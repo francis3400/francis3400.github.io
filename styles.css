@@ -743,6 +743,7 @@ textarea {
     display: flex;
     flex-direction: row;
     align-items: center;
+    background: #fff;
     background-size: cover;
     background-repeat: no-repeat;
     border: 1px solid #dfe1e6;
@@ -751,8 +752,7 @@ textarea {
     border-radius: 16px;
     width: 95%;
     height: 100%;
-    margin-left: 2%;
-    background: #fff;
+    margin-left: 2%; 
   }
 
   .pic-1 {
@@ -794,13 +794,13 @@ textarea {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
+    background: #fff;
     background-size: cover;
     background-repeat: no-repeat;
     border: 1px solid #dfe1e6;
     font-family: 'poppins', sans-serif;
     padding: 45px 45px;
     border-radius: 16px;
-    background: #fff;
   }
 
   .tonicList1 {
@@ -847,13 +847,13 @@ textarea {
     flex-direction: row;
     align-items: center;
     margin: 0.5rem auto;
+    background: #fff;
     background-size: cover;
     background-repeat: no-repeat;
     border: 1px solid #dfe1e6;
     font-family: 'poppins', sans-serif;
     padding: 45px 45px;
-    border-radius: 16px;
-    background: #fff;
+    border-radius: 16px;  
   }
 
   .title1 {
@@ -876,13 +876,13 @@ textarea {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
+    background: #fff;
     background-size: cover;
     background-repeat: no-repeat;
     border: 1px solid #dfe1e6;
     font-family: 'poppins', sans-serif;
     padding: 45px 45px;
     border-radius: 16px;
-    background: #fff;
   }
 
   #about {
