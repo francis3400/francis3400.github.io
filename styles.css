@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+
 *,
 *::before,
 *::after {
@@ -30,6 +32,7 @@ h2 {
 
 .logo {
   color: #6070ff;
+  font-family: 'Poppins', sans-serif;
 }
 
 #info-text {
@@ -98,7 +101,7 @@ h2 {
 
 .socialMedia ul {
   list-style-type: none;
-  margin-left: -110px;
+  margin-left: -40%;
 }
 
 #landing {
@@ -127,7 +130,7 @@ h2 {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 45px;
+  font-size: 48px;
   line-height: 52px;
   color: #172b4d;
   width: 100%;
@@ -153,7 +156,7 @@ h2 {
   background-repeat: no-repeat;
   border: 1px solid #dfe1e6;
   font-family: 'poppins', sans-serif;
-  padding: 16px;
+  padding: 45px 45px;
   border-radius: 16px;
 }
 
@@ -167,7 +170,7 @@ h2 {
   background-repeat: no-repeat;
   border: 1px solid #dfe1e6;
   font-family: 'poppins', sans-serif;
-  padding: 16px;
+  padding: 45px 45px;
   border-radius: 16px;
 }
 
@@ -181,7 +184,7 @@ h2 {
   background-repeat: no-repeat;
   border: 1px solid #dfe1e6;
   font-family: 'poppins', sans-serif;
-  padding: 16px;
+  padding: 45px 45px;
   border-radius: 16px;
 }
 
@@ -195,7 +198,7 @@ h2 {
   background-repeat: no-repeat;
   border: 1px solid #dfe1e6;
   font-family: 'poppins', sans-serif;
-  padding: 16px;
+  padding: 45px 45px;
   border-radius: 16px;
 }
 
@@ -300,7 +303,7 @@ h2 {
   letter-spacing: 0.03em;
   background: none;
   border: 2px solid #396df2;
-  margin-top: 20px;
+  margin-top: 30px;
   padding: 10px;
 }
 
@@ -444,6 +447,15 @@ h2 {
 
 hr {
   margin-top: 50px;
+}
+
+#text-4 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #091e42;
 }
 
 .parting {
@@ -660,7 +672,7 @@ textarea {
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
-    padding-bottom: 5rem;
+    padding-bottom: 20%;
   }
 
   .navMenu {
@@ -728,7 +740,7 @@ textarea {
     background-repeat: no-repeat;
     border: 1px solid #dfe1e6;
     font-family: 'poppins', sans-serif;
-    padding: 16px;
+    padding: 45px 45px;
     border-radius: 16px;
     width: 100%;
     height: 100%;
@@ -747,7 +759,7 @@ textarea {
 
   .tonicContent,
   .tonic2Content {
-    margin-left: 5%;
+    margin-left: 10%;
     margin-bottom: 4%;
     width: 60%;
   }
@@ -773,7 +785,7 @@ textarea {
     background-repeat: no-repeat;
     border: 1px solid #dfe1e6;
     font-family: 'poppins', sans-serif;
-    padding: 16px;
+    padding: 45px 45px;
     border-radius: 16px;
   }
 
@@ -788,8 +800,8 @@ textarea {
     font-size: 13px;
     line-height: 16px;
     color: #7a869a;
-    padding-bottom: 10px;
     display: block;
+    padding: 2% 0;
   }
 
   .tonicListR p {
@@ -825,7 +837,7 @@ textarea {
     background-repeat: no-repeat;
     border: 1px solid #dfe1e6;
     font-family: 'poppins', sans-serif;
-    padding: 16px;
+    padding: 45px 45px;
     border-radius: 16px;
   }
 
@@ -853,7 +865,7 @@ textarea {
     background-repeat: no-repeat;
     border: 1px solid #dfe1e6;
     font-family: 'poppins', sans-serif;
-    padding: 16px;
+    padding: 45px 45px;
     border-radius: 16px;
   }
 
@@ -872,7 +884,7 @@ textarea {
     flex-direction: column;
     align-items: flex-start;
     margin-left: 20px;
-    margin-top: 10%;
+    margin-top: 5%;
   }
 
   .hello2 {
@@ -884,7 +896,8 @@ textarea {
   }
 
   .form-class {
-    align-items: center;
+    width: 447px;
+    margin-left: 40%;
   }
 
   .storiesContent {
@@ -898,7 +911,51 @@ textarea {
   }
 
   .contact-text {
-    width: 50%;
-    margin-left: 25%;
+    margin-left: 36%;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    width: 569px;
+    height: 102px;
+    color: #ebebff;
+  }
+
+  .text-3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #344563;
+  }
+
+  .pic-4,
+  .pic-5 {
+    width: 544px;
+    height: 448px;
+  }
+
+  .aboutList2 {
+    display: flex;
+  }
+
+  .item-1 {
+    margin-top: 80%;
+    margin-right: 10%;
+  }
+
+  .contact-title {
+    width: 801px;
+    margin-left: 28%;
+  }
+
+  #getInTouch {
+    margin-left: 30%;
+  }
+
+  .about2 {
+    margin-left: 20%;
   }
 }
