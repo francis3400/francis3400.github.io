@@ -21,8 +21,28 @@ header {
   padding: 14px 24px;
 }
 
-ul {
+.card-container {
+  padding: 45px;
+}
+
+ul,
+li {
   list-style: none;
+  padding-left: 0;
+}
+
+.icon-tag:not(:first-child) {
+  margin: 0 0 0 16px;
+}
+
+.flex {
+  display: flex;
+  width: 65%;
+}
+
+.item-center {
+  justify-items: left;
+  padding-left: 0;
 }
 
 h2 {
@@ -78,11 +98,6 @@ h2 {
   margin-left: -20px;
 }
 
-.socialMedia li {
-  display: inline;
-  margin-right: 20px;
-}
-
 .tonicList1 li {
   display: inline;
 }
@@ -97,11 +112,6 @@ h2 {
 
 #languages-list li {
   margin-right: 10px;
-}
-
-.socialMedia ul {
-  list-style-type: none;
-  margin-left: -40%;
 }
 
 #landing {
@@ -289,7 +299,7 @@ h2 {
   background: none;
   border: 2px solid #396df2;
   margin-top: 20px;
-  margin-left: 18px;
+  margin-left: 120px;
   padding: 10px;
 }
 
@@ -360,13 +370,14 @@ h2 {
 }
 
 #about {
-  width: 100%;
+  width: 95%;
   display: flex;
   flex-direction: column;
   align-content: center;
   margin: auto;
   background: #fff;
   height: 100%;
+  background-image: url('images/about.png');
 }
 
 #aboutConnect {
@@ -461,6 +472,7 @@ hr {
 .parting {
   width: 95%;
   margin: 0 auto;
+  padding-bottom: 10%;
 }
 
 .hello2 {
@@ -469,7 +481,9 @@ hr {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  color: #172b4d;
+  color: #091e42;
+  width: 447px;
+  height: 114px;
 }
 
 #aboutText {
@@ -511,16 +525,13 @@ hr {
   padding: 2px;
 }
 
-.container-contact {
-  width: 95%;
-  margin: 0 auto;
+.contact-style {
+  width: 100%;
   padding-top: 60px;
-  background-image: url(images/Frame.png);
+  background-image: url('./images/back-1.png');
   background-repeat: no-repeat;
   background-size: cover;
   height: 779px;
-  display: flex;
-  flex-direction: column;
 }
 
 .contact-title {
@@ -641,7 +652,7 @@ textarea {
   color: #6070ff;
 }
 
-@media screen and (min-device-width: 768px) {
+@media screen and (min-width: 768px) {
   body {
     overflow-x: hidden;
   }
@@ -728,10 +739,6 @@ textarea {
     margin-left: 18%;
   }
 
-  .socialMedia {
-    margin-right: 25%;
-  }
-
   .tonic {
     display: flex;
     flex-direction: row;
@@ -742,8 +749,9 @@ textarea {
     font-family: 'poppins', sans-serif;
     padding: 45px 45px;
     border-radius: 16px;
-    width: 100%;
+    width: 95%;
     height: 100%;
+    margin-left: 2%;
   }
 
   .pic-1 {
@@ -761,7 +769,11 @@ textarea {
   .tonic2Content {
     margin-left: 10%;
     margin-bottom: 4%;
-    width: 60%;
+    width: 50%;
+  }
+
+  .image-tonic {
+    width: 50%;
   }
 
   .photo1 {
@@ -870,7 +882,7 @@ textarea {
   }
 
   #about {
-    width: 100%;
+    width: 95%;
     display: flex;
     flex-direction: row;
     align-content: center;
@@ -893,6 +905,10 @@ textarea {
 
   #aboutText {
     padding-bottom: 5%;
+    width: 447px;
+    height: 102px;
+    color: #344563;
+    margin-bottom: 15px;
   }
 
   .form-class {
@@ -900,18 +916,14 @@ textarea {
     margin-left: 40%;
   }
 
-  .storiesContent {
-    width: 50%;
-    margin-bottom: 4%;
-  }
-
+  .storiesContent,
   .stories2Content {
     width: 50%;
     margin-bottom: 4%;
   }
 
   .contact-text {
-    margin-left: 36%;
+    margin-left: 35%;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -941,14 +953,9 @@ textarea {
     display: flex;
   }
 
-  .item-1 {
-    margin-top: 80%;
-    margin-right: 10%;
-  }
-
   .contact-title {
     width: 801px;
-    margin-left: 28%;
+    margin-left: 22%;
   }
 
   #getInTouch {
@@ -957,5 +964,45 @@ textarea {
 
   .about2 {
     margin-left: 20%;
+  }
+
+  .contact-style {
+    width: 100%;
+  }
+
+  .Q img {
+    margin-top: 0;
+    margin-bottom: 16px;
+    margin-right: 50px;
+  }
+
+  .Q p {
+    margin-bottom: 0;
+    margin-right: 30px;
+  }
+
+  .Q {
+    text-align: left;
+    width: 122px;
+    height: 120px;
+    background: #f7f7f9;
+    border-radius: 8px;
+    margin-right: 12px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  h4 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7f8cff;
+    padding-bottom: 15px;
+  }
+
+  .Q-text:not(:first-child) {
+    margin-left: -10px;
   }
 }
