@@ -143,8 +143,6 @@ h2 {
   font-size: 48px;
   line-height: 60px;        
   letter-spacing: 0.37px;
-
-
   transition-property: font-size;  
   transition-duration: 4s;
   transition-delay: 2s;
@@ -165,14 +163,11 @@ h2 {
   font-size: 48px;
   line-height: 60px;        
   letter-spacing: 0.37px;
-
   transition-property: font-size;
   transition-duration: 4s;
   transition-delay: 2s;
   
 }
-
-
 
 .hello h2 {
   font-family: 'Poppins', sans-serif;
