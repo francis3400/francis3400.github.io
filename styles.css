@@ -132,7 +132,7 @@ h2 {
 .hello {
   width: 150px;
   display: flex;
-  align-items:flex-start;
+  align-items: flex-start;
   justify-content: flex-start;
   margin-top: 8rem;
   margin-left: 20px;
@@ -140,9 +140,9 @@ h2 {
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
-  line-height: 60px;        
+  line-height: 60px;
   letter-spacing: 0.37px;
-  transition-property: font-size;  
+  transition-property: font-size; 
   transition-duration: 4s;
   transition-delay: 2s;
   color: #091e42;
@@ -158,8 +158,7 @@ h2 {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 48px;
-  line-height: 60px;        
+  line-height: 60px;   
   letter-spacing: 0.37px;
   transition-property: font-size;
   transition-duration: 4s;
@@ -989,7 +988,6 @@ textarea {
       margin-left: 100%;
       width: 300%;
     }
-  
     to {
       margin-left: 0%;
       width: 100%;
@@ -1005,7 +1003,7 @@ textarea {
   .aboutList2 {
     display: flex;
   }
-
+  
   .contact-title {
     width: 801px;
     margin-left: 22%;
