@@ -45,13 +45,17 @@
           <p class="connect">LET’S CONNECT</p>
           <ul class="flex item-center">
             <li class="icon-tag">
-              <a href=""><img src="images/twitter.png" alt="Twitter" /></a>
+              <a role="button" href=""
+                ><img src="images/twitter.png" alt="Twitter"
+              /></a>
             </li>
             <li class="icon-tag">
-              <a href=""><img src="images/linkedin.png" alt="Linkedin" /></a>
+              <a role="button" href=""
+                ><img src="images/linkedin.png" alt="Linkedin"
+              /></a>
             </li>
             <li class="icon-tag">
-              <a href=""><img src="images/M.png" alt="M" /></a>
+              <a role="button" href=""><img src="images/M.png" alt="M" /></a>
             </li>
             <li class="icon-tag">
               <a href=""><img src="images/github.png" alt="Github" /></a>
@@ -298,6 +302,8 @@
                 <input
                   type="text"
                   class="name"
+                  aria-label="name"
+                  aria-required="true"
                   name="name"
                   required
                   placeholder="Francis Uche"
@@ -308,6 +314,8 @@
                 <label for="mail"></label>
                 <input
                   type="email"
+                  aria-label="email"
+                  aria-required="true"
                   class="email"
                   name="email"
                   required
@@ -319,6 +327,7 @@
                 <textarea
                   class="text-area"
                   name="message"
+                  aria-label="message"
                   maxlength="500"
                   cols="30"
                   rows="10"
