@@ -116,8 +116,12 @@ li {
   display: none;
 }
 
-.logo,
 .text-1 {
+  font-family: 'Poppins', sans-serif;
+  color: #344563;
+}
+
+.logo {
   color: #6070ff;
   font-family: 'Poppins', sans-serif;
 }
@@ -132,13 +136,6 @@ li {
   justify-content: space-between;
   align-items: center;
   height: 72px;
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 80%;
-  background-color: #fff;
 }
 
 .mobile-menu > * {
@@ -251,7 +248,6 @@ li .Q-text {
   font-weight: 500;
   font-family: 'Poppins', sans-serif;
   width: auto;
-  height: 24px;
   padding: 4px 12px;
 }
 
@@ -305,9 +301,8 @@ li .Q-text {
 
 #about {
   width: 95%;
-  border-top-right-radius: 60px;
+  background-image: url('images/about.png');
   margin: auto;
-  background: #fff;
 }
 
 .about1 {
@@ -360,7 +355,6 @@ li .Q-text {
 }
 
 #aboutText {
-  width: 327px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -368,7 +362,6 @@ li .Q-text {
   line-height: 24px;
   color: #344563;
   text-align: left;
-  padding-top: 10px;
 }
 
 .connect {
@@ -385,7 +378,6 @@ li .Q-text {
 .about2 {
   width: 50%;
   margin-top: 60px;
-  margin-left: 36px;
 }
 
 .htmlButtons {
@@ -396,12 +388,12 @@ li .Q-text {
 }
 
 .contact-style {
-  width: 100%;
-  padding-top: 60px;
   background-image: url('./images/contact-me.png');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 779px;
+  padding: 60px 0 24px;
+  display: flex;
+  flex-direction: column;
 }
 
 .contact-title {
@@ -428,33 +420,19 @@ li .Q-text {
   text-align: center;
 }
 
-.name {
-  background: #fff;
-  padding: 24px;
-  height: 48px;
-  border: 1px solid #cfd8dc;
-  border-radius: 8px;
-  font-size: 17px;
-  line-height: 20px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  margin-bottom: 12px;
-  width: 100%;
-}
-
+.name,
 .email {
   background: #fff;
   padding: 24px;
   height: 48px;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
-  margin-bottom: 12px;
   font-size: 17px;
   line-height: 20px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
+  margin-bottom: 12px;
   width: 100%;
 }
 
@@ -477,13 +455,12 @@ textarea {
 }
 
 .form-class {
-  padding-top: 20px;
-  margin: 0 24px;
-  color: #172b4d;
-}
-
-#getInTouch {
-  margin-left: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin: 24px;
+  padding-top: 50px;
 }
 
 #getInTouch button:hover {
@@ -586,7 +563,7 @@ textarea {
   .tonic2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
+    grid-gap: 46px;
     width: 95%;
     align-items: center;
     background: #fff;
@@ -595,6 +572,7 @@ textarea {
     border: 1px solid #dfe1e6;
     font-family: 'poppins', sans-serif;
     border-radius: 16px;
+    padding-left: 2%;
   }
 
   .main-p-1 {
@@ -619,8 +597,7 @@ textarea {
 
   .photo2 {
     display: block;
-    width: 90%;
-    padding-left: 4%;
+    width: 95%;
   }
 
   .main-text-2 {
@@ -629,21 +606,28 @@ textarea {
 
   .stories,
   .stories2 {
-    display: flex;
-    flex-direction: row-reverse;
-    width: 95%;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'projectArea imageArea';
+    gap: 46px;
     background: #fff;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border: 1px solid #dfe1e6;
-    font-family: 'poppins', sans-serif;
-    border-radius: 16px;
   }
 
   .stories-text {
-    padding-bottom: 10%;
-    padding-right: 10%;
+    padding-bottom: 18%;
+    grid-area: ProjectArea;
+    grid-row-start: projectArea;
+    grid-column-start: projectArea;
+    grid-row-end: projectArea;
+    grid-column-end: projectArea;
+  }
+
+  .stories-pic {
+    grid-area: imageArea;
+    grid-row-start: imageArea;
+    grid-column-start: imageArea;
+    grid-row-end: imageArea;
+    grid-column-end: imageArea;
   }
 
   .tonic-text {
@@ -676,25 +660,17 @@ textarea {
 
   #about {
     width: 100%;
-    border-top-right-radius: 50px;
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
-    flex-direction: row;
-    align-content: center;
-    background: #fff;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    padding-bottom: 200px;
-    padding-top: 200px;
-    height: 50%;
+    gap: 37px;
+    padding: 40px;
   }
 
   .about1 {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    width: 50%;
-    margin-top: 10px;
-    flex: 1;
   }
 
   .hello2 {
@@ -703,24 +679,17 @@ textarea {
 
   #aboutText {
     padding-bottom: 5%;
-    width: 300px;
+    width: 260px;
     color: #344563;
     margin-bottom: 15px;
   }
 
-  .form-class {
-    width: 447px;
-    margin-left: 40%;
-  }
-
   .contact-text {
-    margin-left: 35%;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
-    width: 569px;
     height: 102px;
     color: #ebebff;
   }
@@ -749,16 +718,7 @@ textarea {
   }
 
   .contact {
-    margin: 0 24px;
-  }
-
-  .contact-title {
-    width: 801px;
-    margin-left: 22%;
-  }
-
-  .contact-style {
-    width: 100%;
+    padding: 0 150px;
   }
 
   .Q img {
@@ -769,7 +729,7 @@ textarea {
 
   .Q {
     text-align: left;
-    width: 122px;
+    width: 100px;
     height: 120px;
     background: #f7f7f9;
     border-radius: 8px;
@@ -794,20 +754,8 @@ textarea {
     align-items: flex-start;
   }
 
-  .about2 {
-    width: 50%;
-    padding-top: 60px;
-    flex: 1.5;
-  }
-
   .aboutList2 {
     display: flex;
-  }
-
-  .box-1,
-  .box-2 {
-    width: 684px;
-    height: 1px;
   }
 
   .arrow {
@@ -821,11 +769,12 @@ textarea {
     left: 88%;
   }
 
-  .down-section {
-    background-color: #fff;
+  .name,
+  .email {
+    width: 447px;
   }
 
-  #getInTouch {
-    margin-left: 150px;
+  .contact-style {
+    background: #6070ff;
   }
 }
