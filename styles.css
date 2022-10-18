@@ -440,7 +440,10 @@ a {
 
 .cancel-icon {
   margin-left: 90%;
-  margin-top: 62px;
+}
+
+.cancel-img {
+  margin-top: 50px;
 }
 
 .overflowHidden {
@@ -454,6 +457,7 @@ a {
 .show {
   left: 0;
   backdrop-filter: blur(8px);
+  transition: 0.4s;
 }
 
 .contact-text {
