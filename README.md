@@ -37,13 +37,19 @@ To run the project do the following:
 
 ## Author
 
+👤 **Francis UCHE**
+
 - GitHub: [@francis3400](https://github.com/francis3400)
 - Twitter: [@FrancisBlinkz](https://twitter.com/FrancisBlinkz)
 - LinkedIn: [/francis-uche-888675213/](www.linkedin.com/in/francis-uche-888675213)
 
 ## Collaborators
 
-- Github: [@amentetteh]
+👤 **Amen TETTEH**
+
+- GitHub: [@amentetteh](https://github.com/amentetteh)
+- Twitter: [@amentetteh](https://twitter.com/amentetteh)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/amentetteh)
 
 ## 🤝 Contributing
 
