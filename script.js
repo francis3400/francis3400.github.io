@@ -137,7 +137,7 @@ function openModal(
     desktop: ['Uber', 'Lead Developer', 2018],
   },
   description="qqqqqqqqqqqqq",
-  image=  {
+  images=  {
     mobile: 'images/snap10.png',
     desktop: 'images/Snapshoot_Portfolio.png',
   },
