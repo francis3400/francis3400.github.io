@@ -586,6 +586,11 @@ textarea {
   padding-top: 50px;
 }
 
+.error-message {
+  color: red;
+  font-size: 18px;
+}
+
 #getInTouch button:hover {
   background: #6070ff;
   color: white;
