@@ -1,21 +1,16 @@
-const hamburger = document.querySelector('.mobile-menu .navMenu');
-const mobileDisplay = document.querySelector('.mobile-display');
-const cancel = document.querySelector('.cancel-icon');
-const body = document.querySelector('body');
-const mobileLinks = document.querySelectorAll('#mobile-nav');
-hamburger.addEventListener('click', () => {
-  mobileDisplay.classList.add('show');
-  body.classList.add('overflowHidden');
-});
+// Form validation
 
-cancel.addEventListener('click', () => {
-  mobileDisplay.classList.remove('show');
-  body.classList.remove('overflowHidden');
-});
+const form = document.querySelector('#contact-style form');
+const errMessageZone = document.querySelector('#error-message');
 
-mobileLinks.forEach((item) => {
-  item.addEventListener('click', () => {
-    mobileDisplay.classList.remove('show');
-    body.classList.remove('overflowHidden');
-  });
+form.addEventListener('submit', (event) => {
+  const email = document.querySelector('#email');
+  const emailRegExp = /[A-Z]/;
+  if (!emailRegExp.test(email.value.trim())) {
+    form.submit();
+  } else {
+    event.preventDefault();
+    // emailClass.classList.toggle('error');
+    errMessageZone.innerText = 'Lower Case Email Please';
+  }
 });

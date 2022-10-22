@@ -9,9 +9,10 @@
 body {
   max-width: 100vw;
   min-height: 100vh;
-  background: #fff;
+  background: #e5e5e5;
   margin: 0;
   padding: 0;
+  overflow-x: clip !important;
 }
 
 body > * {
@@ -64,8 +65,7 @@ h2 .hello-1 {
 }
 
 h2 .main-text {
-  width: 295px;
-  height: 36px;
+  z-index: 10;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -74,9 +74,9 @@ h2 .main-text {
   color: #172b4d;
 }
 
-p .main-p {
-  width: 295px;
-  height: 76px;
+p {
+  width: 100%;
+  height: 100%;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -158,10 +158,6 @@ li {
   display: block;
 }
 
-.htmlButtons li {
-  margin-right: 0.8rem;
-}
-
 .tonicListQ li {
   display: inline;
 }
@@ -175,6 +171,7 @@ li {
   background-repeat: no-repeat;
   color: #fff;
   padding-bottom: 5rem;
+  border-bottom-left-radius: 60px;
 }
 
 .landingText {
@@ -189,13 +186,11 @@ li {
   padding: 0 24px;
 }
 
-.tonic,
-.stories,
-.tonic2,
-.stories2 {
-  width: 95%;
+.card-works {
+  width: 100%;
   margin: 0.5rem auto;
   align-items: center;
+  background: #fff;
   background-size: cover;
   background-repeat: no-repeat;
   border: 1px solid #dfe1e6;
@@ -237,11 +232,37 @@ li .Q-text {
   display: none;
 }
 
+.btn {
+  font-family: 'Poppins', sans-serif;
+  width: 84px;
+  padding: 0.6rem 0.6rem;
+  height: 20px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  border-radius: 10px;
+  border: 1px solid #dfe1e6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background: #fff;
+  margin: 12px 5px;
+  color: #396df2;
+  border-color: #6070ff;
+}
+
+.flex-div {
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+
+.div {
+  margin-left: 0;
+}
+
 .htmlButtons button {
   background: #ebebff;
-  border-radius: 10px;
+  border-radius: 5px;
   color: #6070ff;
-  font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
   border: none;
@@ -249,6 +270,7 @@ li .Q-text {
   font-family: 'Poppins', sans-serif;
   width: auto;
   padding: 4px 12px;
+  margin: 0 5px;
 }
 
 .resumeButton button,
@@ -301,11 +323,13 @@ li .Q-text {
 
 #about {
   width: 95%;
-  background-image: url('images/about.png');
+  background: #fff;
   margin: auto;
+  border-top-right-radius: 60px;
 }
 
 .about1 {
+  padding-top: 20px;
   margin: 0 24px;
 }
 
@@ -393,8 +417,6 @@ li .Q-text {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 60px 0 24px;
-  display: flex;
-  flex-direction: column;
 }
 
 .contact-title {
@@ -457,7 +479,56 @@ a {
 .show {
   left: 0;
   backdrop-filter: blur(8px);
-  transition: 0.4s;
+  transition: 0.3s;
+}
+
+.modal {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  visibility: hidden;
+  background-color: rgb(167, 154, 154);
+  z-index: 8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.showModal {
+  visibility: visible;
+}
+
+.modal-inner {
+  background-color: #fff;
+  width: 92%;
+  min-height: 50vh;
+  border-radius: 20px;
+  padding: 1rem;
+  margin: 16px;
+}
+
+.header-first-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cancels {
+  z-index: 20;
+  border: none;
+  background: red;
+  outline: none;
+  color: #67798e;
+  font-size: 2rem;
+  margin-left: auto;
+}
+
+.btn-modal img {
+  margin-top: 10px;
 }
 
 .contact-text {
@@ -485,7 +556,7 @@ a {
   font-style: normal;
   font-weight: 400;
   margin-bottom: 12px;
-  width: 100%;
+  width: 327px;
 }
 
 .text-area {
@@ -513,6 +584,11 @@ textarea {
   gap: 20px;
   margin: 24px;
   padding-top: 50px;
+}
+
+.error-message {
+  color: red;
+  font-size: 18px;
 }
 
 #getInTouch button:hover {
@@ -611,11 +687,11 @@ textarea {
     font-size: 48px;
   }
 
-  .tonic,
-  .tonic2 {
+  .card-works {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 46px;
+    grid-template-areas: 'imageArea projectArea';
     width: 95%;
     align-items: center;
     background: #fff;
@@ -625,6 +701,14 @@ textarea {
     font-family: 'poppins', sans-serif;
     border-radius: 16px;
     padding-left: 2%;
+  }
+
+  .text-first {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'projectArea imageArea';
+    gap: 46px;
+    background: #fff;
   }
 
   .main-p-1 {
@@ -656,16 +740,7 @@ textarea {
     display: inline-block;
   }
 
-  .stories,
-  .stories2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: 'projectArea imageArea';
-    gap: 46px;
-    background: #fff;
-  }
-
-  .stories-text {
+  .tonic-text {
     padding-bottom: 18%;
     grid-area: ProjectArea;
     grid-row-start: projectArea;
@@ -674,16 +749,12 @@ textarea {
     grid-column-end: projectArea;
   }
 
-  .stories-pic {
+  .tonic-pic {
     grid-area: imageArea;
     grid-row-start: imageArea;
     grid-column-start: imageArea;
     grid-row-end: imageArea;
     grid-column-end: imageArea;
-  }
-
-  .tonic-text {
-    padding-bottom: 18%;
   }
 
   .tonicListR {
@@ -694,7 +765,6 @@ textarea {
     line-height: 16px;
     color: #7a869a;
     display: block;
-    padding: 2% 0;
   }
 
   .tonicListR p {
@@ -723,6 +793,7 @@ textarea {
   .about1 {
     display: flex;
     flex-direction: column;
+    margin-left: 24px;
   }
 
   .hello2 {
@@ -828,5 +899,25 @@ textarea {
 
   #contact-style {
     background: #6070ff;
+  }
+
+  .about2 {
+    margin-left: -30px;
+  }
+
+  .blab {
+    display: flex;
+  }
+
+  .baz {
+    margin-bottom: 20px;
+  }
+
+  .hidden-buttons {
+    width: 50%;
+  }
+
+  .pic-work {
+    width: 100%;
   }
 }
