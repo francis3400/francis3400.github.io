@@ -22,7 +22,7 @@ Web Browser (Google Chrome recommended)
 
 ## Live Demo
 
-[Live Demo Link](https://peteugwu.github.io/Portfolio-set-up/)
+[Live Demo Link](https://francis3400.github.io/)
 
 How to Run
 To run the project do the following:
