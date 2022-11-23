@@ -2,295 +2,211 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <title>My-Portfolio</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
   </head>
 
   <body>
-    <header>
-      <nav class="mobile-menu">
-        <h1 class="logo">My Logo</h1>
-        <img class="navMenu" src="images/hamburger.png" id="trigger" alt="menu icon" />
-      </nav>
-    </header>
+    <div class="modal">
+    </div>
+  
+    <section class="parting">
       <section id="landing">
-       
-        <div class="hello"><h2>I’m Francis, Glad to see you!</h2></div>
+        <header>
+          <nav class="mobile-menu" aria-label="nav-bar">
+            <h1 class="logo" aria-label="logo">My Logo</h1>
+            <label class="navMenu"
+              ><img class="navMenu" src="images/hamburger.png" alt="menu icon"
+            /></label>
+            <ul id="info-text" aria-label="nav-items">
+              <li class="text-1">Portfolio</li>
+              <li class="text-1">About</li>
+              <li class="text-1">Contact</li>
+            </ul>
+          </nav>
+          <div class="mobile-display">
+            <label class="cancel-icon"
+              ><img class="cancel-img" src="images/icon.png" alt="menu icon"
+            /></label>
+            <ul id="mobile-nav" aria-label="nav-items">
+              <li class="nav-text"><a href="#cards">Portfolio</a></li>
+              <li class="nav-text"><a href="#about">About</a></li>
+              <li class="nav-text"><a href="#contact-style">Contact</a></li>
+            </ul>
+          </div>
+        </header>
         <div class="landingText">
-          <p>
+          <h2 class="hello">
+            I’m Francis<br />
+            Glad to see you!
+          </h2>
+          <p class="main-p">
             I’m a software developer! I can help you build a product , feature
             or website Look through some of my work and experience! If you like
             what you see and have a project you need coded, don’t hestiate to
             contact me.
           </p>
-        </div>
           <p class="connect">LET’S CONNECT</p>
-        <div class="socialMedia">
-          <ul>
-            <li>
-              <a href=""><img src="images/twitter.png" alt="Twitter" /></a>
+          <ul class="flex item-center">
+            <li class="icon-tag">
+              <a role="button" href=""
+                ><img src="images/twitter.png" alt="Twitter"
+              /></a>
             </li>
-            <li>
-              <a href=""><img src="images/linkedin.png" alt="Linkedin" /></a>
+            <li class="icon-tag">
+              <a role="button" href=""
+                ><img src="images/linkedin.png" alt="Linkedin"
+              /></a>
             </li>
-            <li>
-              <a href=""><img src="images/M.png" alt="M" /></a>
+            <li class="icon-tag">
+              <a role="button" href=""><img src="images/M.png" alt="M" /></a>
             </li>
-            <li>
-              <a href=""><img src="images/github.png" alt="Github" /></a>
+            <li class="icon-tag">
+              <a href="" role="button"
+                ><img src="images/github.png" alt="Github"
+              /></a>
             </li>
-            <li>
-              <a href=""><img src="images/sash.png" alt="Peace" /></a>
+            <li class="icon-tag">
+              <a href="" role="button"
+                ><img src="images/sash.png" alt="Peace"
+              /></a>
             </li>
           </ul>
         </div>
-       
       </section>
+    </section>
 
-       <section class="parting">
-        <div class="tonic">
-          <div class="tonicing">
-            <img src="images/snapshot1.png" alt="Tonic Work" />
-          </div>
-          <div class="tonicContent">
-            <h2>Tonic</h2>
-            <div class="tonicList1">
-              <ul>
-                <li class="licap">CANOPY</li>
-                <li>• Back End Dev</li>
-                <li>• 2015</li>
-              </ul>
-            </div>
-            <div class="tonicDescription">
-              <p>
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required.
-              </p>
-            </div>
-          
-              
-             <ul  class="htmlButtons" >
-              <li><button type="button">html</button></li>
-              <li><button type="button">css</button></li>
-              <li><button type="button">javascript</button></li>
-              </ul>
-            <div class="seeProject">
-              <button type="button" id="seeTonic">See Project</button>
-            </div>
-          </div>
-       </section>
-        
-        <section class="stories">
-          <div class="tonicing">
-            <img src="images/snapshot2.png" alt="stories Work" />
-          </div>
-          <div class="storiesContent">
-            <h2 class="tonicTitle">Multi-Post<br>Stories</h2>
-            <div class="tonicList1">
-              <ul>
-                <li class="licap">CANOPY</li>
-                <li>• Back End Dev</li>
-                <li>• 2015</li>
-              </ul>
-            </div>
-            <div class="tonicDescription">
-              <p>
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required.
-              </p>
-            </div>
 
-          
-             <ul  class="htmlButtons" >
-              <li><button type="button">html</button></li>
-              <li><button type="button">css</button></li>
-              <li><button type="button">javascript</button></li>
-              </ul>
-          
-            <div class="seeProject">
-              <button id="seeMultiPost" type="button">See Project</button>
-            </div>
-          </div>
-        </section>
-        </div>
+    <section id="cards">
 
-        <div class="tonic2">
-          <div>
-            <img src="images/snapshoot3.png" alt="Tonic Work" />
-          </div>
-        
-          <div class="tonic2Content">
-            <h2>Tonic</h2>
-            <div class="tonicList1">
-              <ul>
-                <li class="licap">CANOPY</li>
-                <li>• Back End Dev</li>
-                <li>• 2015</li>
-              </ul>
-            </div>
-            <div class="tonicDescription">
-              <p>
-                  A daily selection of privately personalized reads; no accounts
-                or sign-ups required.
-              </p>
-            </div>
-            
-            
-             <ul  class="htmlButtons" >
-              <li><button type="button">html</button></li>
-              <li><button type="button">css</button></li>
-              <li><button type="button">javascript</button></li>
-              </ul>
-            
-            <div class="seeProject">
-              <button id="see-project" type="button">See Project</button>
-            </div>
-        </div>
- 
-        </div>
-         <div class="stories2">
-          <div>
-            <img src="images/snapshot4.png" alt="stories Work" />
-          </div>
-           <div class="stories2Content">
-            <h2 class="tonicTitle">Multi-Post<br>Stories</h2>
-            <div class="tonicList1">
-              <ul>
-                <li class="licap">CANOPY</li>
-                <li>• Back End Dev</li>
-                <li>• 2015</li>
-              </ul>
-            </div>
-            <div class="tonicDescription">
-              <p>
-               A daily selection of privately personalized reads; no accounts
-                or sign-ups required.
-              </p>
-            </div>
-          
-             <ul  class="htmlButtons" >
-              <li><button type="button">html</button></li>
-              <li><button type="button">css</button></li>
-              <li><button type="button">javascript</button></li>
-              </ul>
-            <div class="seeProject">
-              <button type="button">See Project</button>
-            </div>
-          </div>
-        </div>
+    </section>
 
+    
+    <section class="down-section">
       <section id="about">
         <div class="about1">
-          
-            <h2 class="hello2">About <br> Myself</h2>
-        
-        
-            <p id="aboutText">
-              Hello I’m a software developer! I can help you build a product ,
-              feature or website Look through some of my work and experience! If
-              you like what you see and have a project you need coded, don’t
-              hestiate to contact me.
-            </p>
-        
-         <p class="connect">LET’S CONNECT</p>
+          <h2 class="hello-1">
+            About <br />
+            Myself
+          </h2>
+          <p id="aboutText">
+            Hello I’m a software developer! I can help you build a product ,
+            feature or website Look through some of my work and experience! If
+            you like what you see and have a project you need coded, don’t
+            hestiate to contact me.
+          </p>
+          <p class="connect">LET’S CONNECT</p>
+          <ul class="flex item-center">
+            <li class="icon-tag">
+              <a href=""><img src="images/github.png" alt="Twitter" /></a>
+            </li>
+            <li class="icon-tag">
+              <a href=""><img src="images/linkedin.png" alt="Linkedin" /></a>
+            </li>
+            <li class="icon-tag">
+              <a href=""><img src="images/sash.png" alt="M" /></a>
+            </li>
+            <li class="icon-tag">
+              <a href=""><img src="images/twitter.png" alt="Github" /></a>
+            </li>
+            <li class="icon-tag">
+              <a href=""><img src="images/sash.png" alt="Peace" /></a>
+            </li>
+          </ul>
+          <div class="resumeButton">
+            <button type="button">Get my resume</button>
+          </div>
+        </div>
+        <div class="about2">
+          <h3 class="box-3">
+            Languages<img class="arrow" src="images/arrow.png" alt="" />
+          </h3>
+          <ul class="aboutList2">
+            <li class="Q">
+              <img src="./images/Java.png" alt="" />
+              <p class="Q-text">JavaScript</p>
+            </li>
+            <li class="Q">
+              <img src="images/html.png" alt="" />
+              <p class="Q-text">HTML</p>
+            </li>
+            <li class="Q">
+              <img src="./images/Css.png" alt="" />
+              <p class="Q-text">CSS</p>
+            </li>
+          </ul>
+          <h3 class="box-1">
+            Frameworks <img class="arrow2" src="images/arrow2.png" alt="" />
+          </h3>
+          <h3 class="box-2">
+            Skills<img class="arrow3" src="images/arrow2.png" alt="" />
+          </h3>
+        </div>
+      </section>
 
-          <div class="socialMedia" id="aboutSM">
+      <section id="contact-style">
+        <div class="contact">
+          <h4 class="contact-title">Contact me</h4>
+          <p class="contact-text">
+            If you have an application you are interested in developing, a
+            feature that you need built or a project that needs coding. I’d love
+            to help with it
+          </p>
+          <form
+            action="https://formspree.io/f/mzbwgkjy"
+            method="post"
+            class="form-class"
+          >
             <ul>
               <li>
-                <a href=""
-                  ><img
-                    src="images/github.png"
-                    alt="Twitter"
-                /></a>
+                <label for="name"></label>
+                <input
+                  type="text"
+                  class="name"
+                  aria-label="name"
+                  aria-required="true"
+                  name="name"
+                  required
+                  placeholder="user name"
+                  maxlength="30"
+                />
               </li>
               <li>
-                <a href=""
-                  ><img
-                    src="images/linkedin.png"
-                    alt="Linkedin"
-                /></a>
+                <label for="mail"></label>
+                <input
+                  id="email"
+                  aria-label="email"
+                  aria-required="true"
+                  class="email"
+                  name="email"
+                  required
+                  placeholder="example@email.com"
+                />
               </li>
               <li>
-                <a href=""
-                  ><img src="images/sash.png" alt="M"
-                /></a>
-              </li>
-              <li>
-                <a href=""
-                  ><img src="images/twitter.png" alt="Github"
-                /></a>
-              </li>
-              <li>
-                <a href=""
-                  ><img src="images/M.png" alt="Peace"
-                /></a>
+                <label for="msg"></label>
+                <textarea
+                  class="text-area"
+                  name="message"
+                  aria-label="message"
+                  maxlength="500"
+                  cols="30"
+                  rows="10"
+                  required
+                  placeholder="Write your message here"
+                ></textarea>
               </li>
             </ul>
-             
-            <div class="resumeButton" id="aboutResume">
-              <button type="button">Get my resume</button>
+            <small id="error-message">AAAAA</small>
+            <div id="getInTouch">
+              <button type="submit">Get in Touch</button>
             </div>
-          </div>
-        </div>
-        </div>
-
-        <div class="about2">
-          <div class="lan-list">
-            <ul>
-              <li>
-                <div class="languages">
-                  <h5>Languages</h5>
-                  <img class="arrow" src="images/arrow.png" alt="" />
-                </div>
-                <ul class="aboutList2">
-                  <li>
-                    <div class="Q">
-                      <img src="images/java.png" alt="" />
-                      <p>JavaScript</p>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="Q">
-                      <img src="images/html.png" alt="" />
-                      <p>HTML</p>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="Q">
-                      <img src="images/css.png" alt="" />
-                      <p>CSS</p>
-                    </div>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <div class="languages2">
-                  <h5>Frameworks</h5>
-                  <img class="arrow2" src="images/arrow2.png" alt="" />
-                  <hr>
-                </div>
-              </li>
-              <li>
-                <div class="languages2">
-                  <h5>Skills</h5>
-                  <img class="arrow3" src="images/arrow3.png" alt="" />
-                  <hr>
-              </li>
-          </div>
+          </form>
         </div>
       </section>
-      </section>
-      </div>
+    </section>
+    <script src="script.js"></script>
   </body>
 </html>
